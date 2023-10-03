@@ -18,11 +18,23 @@ namespace Tema2_Opacidad
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            epIV_Image.Opacity = epV_Image.Opacity = epVI_Image.Opacity = 0.5;
         }
+
+        private void Image_MouseEnter(object sender, MouseEventArgs e)
+        {
+            ((Image)sender).Opacity = 1;
+    }
+
+        private void Image_MouseLeave(object sender, MouseEventArgs e)
+        {
+            ((Image)sender).Opacity = 0.5;
+    }
     }
 }

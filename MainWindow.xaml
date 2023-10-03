@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema2_Opacidad"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="650" Width="1179">
     <Grid>
-
+        <Image x:Name="epIV_Image" Margin="61,38,824,38" Source="/Resources/episodioIV.jpg" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+        <Image x:Name="epV_Image" Margin="450,38,451,38" Source="/Resources/episodioV.jpg" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+        <Image x:Name="epVI_Image" Margin="819,38,70,38" Source="/Resources/episodioVI.jpg" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
     </Grid>
 </Window>

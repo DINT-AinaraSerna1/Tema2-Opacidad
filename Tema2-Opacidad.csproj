@@ -6,6 +6,23 @@
     <RootNamespace>Tema2_Opacidad</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\128.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\episodioIV.jpg" />
+    <None Remove="Resources\episodioV.jpg" />
+    <None Remove="Resources\episodioVI.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\128.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\episodioIV.jpg" />
+    <Resource Include="Resources\episodioV.jpg" />
+    <Resource Include="Resources\episodioVI.jpg" />
+  </ItemGroup>
 
 </Project>
